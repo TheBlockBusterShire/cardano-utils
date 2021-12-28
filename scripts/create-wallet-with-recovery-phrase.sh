@@ -1,5 +1,14 @@
 #!/bin/bash
 
+#####################
+# Adding this script to demonstrate a way to build wallet address from recovery phrase which is required by
+# `cardano-wallet`. 
+#
+# The simple way of building wallet address using a verification key and signing key simply doesn't play nice
+# with `cardano-wallet`.
+#
+# Special thanks to George [APEX Pool] from Cardano tech community.
+#####################
 
 # For mainnet
 #NET="mainnet"
